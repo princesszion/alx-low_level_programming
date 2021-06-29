@@ -5,10 +5,10 @@
 *
 * Return: The length of @str.
 */
-string_l _strlen(const char *str)
+int  _strlen(char *s)
 {
-string_l length = 0;
-while (*str++)
+int  length = 0;
+while (*s++)
 length++;
 return (length);
 }
