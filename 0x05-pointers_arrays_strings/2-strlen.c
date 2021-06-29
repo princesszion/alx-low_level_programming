@@ -1,14 +1,14 @@
+#include "holberton.h"
 /**
-*_strlen - return size of array char
-*@s: pointer integer
-*Return: size of array char
+* _strlen - Returns the length of a string.
+* @str: The string to get the length of.
+*
+* Return: The length of @str.
 */
-int _strlen(char *s)
+string_l _strlen(const char *str)
 {
-int i;
-while (s[i])
-{
-i++;
-}
-return (i);
+string_l length = 0;
+while (*str++)
+length++;
+return (length);
 }
