@@ -1,0 +1,1 @@
+######## This code is meant for arrays and pointers
