@@ -1,0 +1,1 @@
+This projects is all about macros in C.
