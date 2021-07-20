@@ -1,4 +1,5 @@
-#include "dog.h"
+#ifndef _DOG_H_
+#define _DOG_H_
 /**
 * init_dog - initializes a structure of type dog
 * @d: pointer to structure
