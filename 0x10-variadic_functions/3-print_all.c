@@ -1,35 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "variadic_functions.h"
-
 /**
- *func_char - print type char.
- *@valist: is a arg type char.
- *Return: void
- */
+*func_char - print type char.
+*@valist: is a arg type char.
+*Return: void
+*/
 void func_char(va_list valist)
 {
-  printf("%c", (char)va_arg(valist, int));
+printf("%c", (char)va_arg(valist, int));
 }
-
 /**
- *func_int - print type int.
- *@valist: is a arg type int.
- *Return: void
- */
+*func_int - print type int.
+*@valist: is a arg type int.
+*Return: void
+*/
 void func_int(va_list valist)
 {
-  printf("%i", va_arg(valist, int));
+printf("%i", va_arg(valist, int));
 }
-
 /**
- *func_float - print type float.
- *@valist: is a arg type float.
- *Return: void
- */
+*func_float - print type float.
+*@valist: is a arg type float.
+*Return: void
+*/
 void func_float(va_list valist)
 {
-  printf("%f", (float)va_arg(valist, double));
+printf("%f", (float)va_arg(valist, double));
 }
 /**
 *func_string - print type string.
