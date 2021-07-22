@@ -15,5 +15,5 @@ typedef struct formats
 {
 char *index;
 void (*func)(va_list valist);
-} formate;
+} formats;
 #endif /* VARIADIC_FUNCTIONS_H */
