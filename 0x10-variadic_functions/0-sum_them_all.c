@@ -1,19 +1,19 @@
-#include "veriadic_functions.h"
 #include <stdarg.h>
 /**
 *sum_them_all - returns the sum of all its parameters.
 *@n: size
-*@res:result
 *Return: adding
 */
 int sum_them_all(const unsigned int n, ...)
 {
-int i, res = 0;
-va_list nums;
-if (n == 0)
-return (res);
-va_start(nums, n);
+va_list valist;
+int sum = 0;
+unsigned int i = 0;
+if (!n)
+return (0);
+va_start(valist, n);
 for (i = 0; i < n; i++)
-res += va_arg(nums, int);
-return (res);
+sum += va_arg(valist, int);
+va_end(valist);
+return (sum);
 }
