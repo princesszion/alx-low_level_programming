@@ -1,0 +1,1 @@
+This pproject concentrates on pointers,arrays and strings.
