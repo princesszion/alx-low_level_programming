@@ -19,7 +19,7 @@ printf("%c", va_arg(c, int));
 */
 void print_s(va_list s)
 {
-char *str = va_arg(s, char*);
+char *str = va_arg(s, char *);
 if (str == NULL)
 str = "(nil)";
 printf("%s", str);
@@ -50,10 +50,11 @@ printf("%f", va_arg(f, double));
 *
 * Return: void
 */
-void print_all(const char *const format, ...)
+void print_all(const char * const format, ...)
 {
 unsigned int i, j;
-print_t p[] = {{"c", print_c},
+print_t p[] = {
+{"c", print_c},
 {"s", print_s},
 {"i", print_i},
 {"f", print_f},
