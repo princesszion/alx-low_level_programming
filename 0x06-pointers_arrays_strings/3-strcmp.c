@@ -1,12 +1,12 @@
 #include "holberton.h"
 /**
-*_strcmp - compares two strings
-*@s1: first string
-*@s2: second string
+* _strcmp - compares two strings
+* @s1: first string
+* @s2: second string
 *
-*return: outputs the difference of s1 and s2
+* Return: outputs the difference of s1 and s2
 */
-int _strcmp(char *s1, char *s2)
+int _strcmp(char * s1, char * hs2)
 {
 int i = 0;
 while (*(s1 + i) && *(s2 + i) && (*(s1 + i) == *(s2 + i)))
