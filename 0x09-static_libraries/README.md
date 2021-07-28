@@ -1,0 +1,1 @@
+TThis project is focused on static libraries.
