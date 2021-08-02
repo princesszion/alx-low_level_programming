@@ -1,0 +1,1 @@
+This project is focused on linked list and their functions.
