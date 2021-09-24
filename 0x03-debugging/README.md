@@ -1,1 +1,1 @@
-This project is focused on debugging and processes.
+**I am learning on how to debug code**
